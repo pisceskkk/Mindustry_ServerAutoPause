@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+sourceCompatibility = 1.8
+
+sourceSets.main.java.srcDirs = ["src"]
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+group 'cn.pisceskkk'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven{ url 'https://www.jitpack.io' }
+}
+
+ext{
+    //the build number that this plugin is made for
+    mindustryVersion = 'v126.2'
+}
+
+dependencies {
+    compileOnly "com.github.Anuken.Arc:arc-core:$mindustryVersion"
+    compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
+}
+
+jar{
+    archiveFileName = "${project.archivesBaseName}.jar"
+    from{
+        configurations.runtimeClasspath.collect{it.isDirectory() ? it : zipTree(it)}
+    }
+
+    from(rootDir){
+        include "plugin.json"
+    }
+}

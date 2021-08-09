@@ -1,0 +1,7 @@
+{
+  "name": "ServerAutoPause",
+  "author": "pisceskkk",
+  "main": "cn.pisceskkk.ServerAutoPause",
+  "description": "A plugin to auto pause(continue) server when empty(or not).",
+  "version": 1.0
+}
