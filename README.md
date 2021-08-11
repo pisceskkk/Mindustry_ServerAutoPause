@@ -9,14 +9,14 @@
 
 Mindustry plugin to auto pause empty server.
 
+Ideas from [Astro36/mindustry-pause-plugin](https://github.com/Astro36/mindustry-pause-plugin)
+
 ## Features
 
-- When the last player leave the server, the game will be paused.
-- When the first player connect to the paused server, the game will be started.
-
-## TODOs
-
-- [ ] When the empty server host a new game, the game will be paused automatically.
+- When the last player leave the server, the game will be paused automatically.
+- When the server host a new game with no player, the game will be paused automatically.
+- When the first player connect to the paused server, the game will be resumed automatically.
+- Command `autopause <on/off>` for server and client to control if the server pause automatically.
 
 ## Downloading
 
