@@ -1,11 +1,11 @@
-# ServerAutoPause
+# Mindustry_ServerAutoPause
 
-![GitHub](https://img.shields.io/github/license/pisceskkk/ServerAutoPause)
-![GitHub last commit](https://img.shields.io/github/last-commit/pisceskkk/ServerAutoPause)
+![GitHub](https://img.shields.io/github/license/pisceskkk/Mindustry_ServerAutoPause)
+![GitHub last commit](https://img.shields.io/github/last-commit/pisceskkk/Mindustry_ServerAutoPause)
 
-![GitHub watchers](https://img.shields.io/github/watchers/pisceskkk/ServerAutoPause?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/pisceskkk/ServerAutoPause?style=social)
-![GitHub forks](https://img.shields.io/github/forks/pisceskkk/ServerAutoPause?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/pisceskkk/Mindustry_ServerAutoPause?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/pisceskkk/Mindustry_ServerAutoPause?style=social)
+![GitHub forks](https://img.shields.io/github/forks/pisceskkk/Mindustry_ServerAutoPause?style=social)
 
 Mindustry plugin to auto pause empty server.
 
@@ -24,4 +24,4 @@ See the releases page.
 
 ## License
 
-[MIT](https://github.com/pisceskkk/ServerAutoPause/blob/main/LICENSE )
+[MIT](https://github.com/pisceskkk/Mindustry_ServerAutoPause/blob/main/LICENSE )
