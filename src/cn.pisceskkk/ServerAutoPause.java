@@ -52,7 +52,7 @@ public class ServerAutoPause extends Plugin{
 
     @Override
     public void registerServerCommands(CommandHandler handler){
-        handler.register("autopause", "<on/off>", "Enabled/disable autopause", (arg, player) -> {
+        handler.register("autopause", "<on/off>", "Enabled/disable autopause", arg -> {
             if (arg.length == 0) {
                 Log.info("[scarlet]Error: Second parameter required: 'on' or 'off'");
             }
