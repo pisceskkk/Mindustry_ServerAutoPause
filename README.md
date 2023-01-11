@@ -9,6 +9,8 @@
 
 Mindustry plugin to auto pause empty server.
 
+**!!PLUGIN FOR RELEASE BUILD 126.2!!**
+
 Ideas from [Astro36/mindustry-pause-plugin](https://github.com/Astro36/mindustry-pause-plugin)
 
 ## Features
